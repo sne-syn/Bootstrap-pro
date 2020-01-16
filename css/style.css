@@ -1,0 +1,42 @@
+body {
+    background: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: 3px solid #008ed6 ;
+    opacity: 0.8;
+}
+
+#home-section {
+    background-image: url(../img/persons3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0; 
+    background-attachment: fixed;
+    min-height: 780px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 780px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#home-section .home-inner {
+    padding-top: 165px;
+}
+
+#home-section .card-form {
+    opacity: 0.8;
+}
+
+#home-section .fas {
+    color: #008ed6;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}

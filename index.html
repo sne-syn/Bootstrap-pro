@@ -5,15 +5,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css.style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Theme</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">IdiomaLAB</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto list-unstyled">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resources-head-section">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tutor-head-section">Tutor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#test-head-section">Test</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#advantages-head-section">Advantages</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="home-section">
+        <div class="dark-overlay">
+            <div class="home-inner container">
+                <div class="row">
+                    <div class="col-lg-8 d-none d-lg-block">
+                        <h1 class="display-4 mb-2">Learn a new language.<br> And make it your own.</h1>
+                        <ul class="list-unstyled">
+                            <li class="d-flex">
+                                <div class="p-4 align-self-start">
+                                    <i class="fas fa-check fa-2x"></i>
+                                </div>
+                                <div class="p-4 align-self-end w-75">Start speaking right away. Learn to speak a new language
+                                    naturally and conversationally.
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="p-4 align-self-start">
+                                    <i class="fas fa-check fa-2x"></i>
+                                </div>
+                                <div class="p-4 align-self-end w-75">Learn and review on your own schedule.
+                                    Learn stress-free and get the guidance you need to build a successful learning
+                                    habit.
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="p-4 align-self-start">
+                                    <i class="fas fa-check fa-2x"></i>
+                                </div>
+                                <div class="p-4 align-self-end w-75">Get results. 92% of our users improve their language
+                                    proficiency in just 2 months.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-primary text-center card-form">
+                            <div class="card-body">
+                                <h3>Sign Up Today</h3>
+                                <p>Please fill out this form to register</p>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control form-control-lg" placeholder="Username">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control form-control-lg" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control form-control-lg" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                                    </div>
+                                    <input type="Submit" class="btn btn-outline-light btn-block"
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="resources-head-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center py-5">
+                        <h1 class="display-4">Resources</h1>
+                        <p class="lead">Whether you’re a beginner or experienced, our expert-crafted lessons have you covered. Learn the basics or focus on topics like travel, culture, or business.</p>
+                        <a href="#" class="btn btn-outline-secondary">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+
+    </main>
 
 
     <script src="http://code.jquery.com/jquery-3.4.1.min.js"
@@ -26,8 +135,8 @@
     </script>
 
     <script>
-    // Get the current year for the copyright
-    $('#year').text(newDate().getFullYear());
+        // Get the current year for the copyright
+        // $('#year').text(newDate().getFullYear());
     </script>
 </body>
 
