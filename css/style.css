@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    border-bottom: 3px solid #008ed6 ;
+    border-bottom: 3px solid #3c81b8 ;
     opacity: 0.8;
 }
 
@@ -13,7 +13,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 0; 
-    background-attachment: fixed;
     min-height: 780px;
 }
 
@@ -30,13 +29,34 @@ body {
     padding-top: 165px;
 }
 
+#home-section .card {
+    background-color: #2b3656;
+}
+
 #home-section .card-form {
     opacity: 0.8;
 }
 
 #home-section .fas {
-    color: #008ed6;
+    color: #2b3656;
     background: #fff;
     padding: 5px;
     border-radius: 5px;
+}
+
+#resources-head-section .fas,
+#tutor-head-section .fas {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+}
+
+#tutor-section .fas {
+    color: #2b3656;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#tutor-head-section {
+    background-color: #1a1c29;
 }
