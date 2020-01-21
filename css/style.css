@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    border-bottom: 3px solid #3c81b8 ;
+    border-bottom: 3px solid #7A9CC6;
     opacity: 0.8;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 #home-section .fas {
-    color: #2b3656;
+    color: #7A9CC6;;
     background: #fff;
     padding: 5px;
     border-radius: 5px;
@@ -52,7 +52,6 @@ body {
 }
 
 #tutor-section .fas {
-    color: #2b3656;
     padding: 5px;
     border-radius: 5px;
 }
